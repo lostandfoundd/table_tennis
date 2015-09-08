@@ -69,7 +69,7 @@
 
 	.inline-block {display: inline-block;}
 	.container {width: 996px; margin: 0 auto;
-
+/*width: 996px;*/
 	position: relative;}
 
 	.column1 { width: 8.33%; }
@@ -132,6 +132,7 @@
 	height:100%; 
     margin-left: auto;
     margin-right: auto;
+
     background-image: url('../img/background.jpg');
 	background-position-x: center;
     background-repeat: no-repeat;
@@ -331,6 +332,7 @@
 	}
 
 	.news_and_events{
+		/*max-width: 1000px;*/
 		height: 100%;
 		background: #fff;
 		margin-bottom:10px; 
@@ -342,7 +344,7 @@
 		border-top: 2px solid  #f53900;
 	}
 	.news{
-		width:300px; 
+		width:280px; 
 		margin-top: 20px;
 		margin-left: 20px;
 	}
@@ -412,20 +414,24 @@
 		text-align: right;
 		margin-top: 20px;
 		margin-left: 20px;
+		/*float: right;*/
+		/*width: 60%;*/
 
 	}
 
 	.events_content{
 		border: 2px solid  #cdcfca;
+		/*width: 670px;*/
 	}
 
 	.main_table{
-		width: 630px;
+		width: 98.5%;
 		font-size: 13px;
 		margin-left:5px;
 		margin-top:4px;
-		margin-right: 4px;
-		margin-bottom: 4px;
+		/*padding-right: 30px;*/
+		/*margin-right: 4px;*/
+		margin-bottom: 5px;
 	}
 
 	 .main_table tr:first-child{
@@ -436,6 +442,7 @@
 	.main_table tr{
 	text-align: left;
 	line-height: 32px;
+
 	}
 
 
@@ -459,7 +466,6 @@
 	}
 
 	.table_years td{
-	display: inline-block;
 	font-size: 13px;
 	line-height: 28px;
 	padding-left: 9px;

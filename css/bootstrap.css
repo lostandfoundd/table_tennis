@@ -345,11 +345,11 @@ p {
   line-height: 1.4;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .lead {
     font-size: 21px;
   }
-}
+}*/
 
 small {
   font-size: 85%;
@@ -531,7 +531,7 @@ dd {
   margin-left: 0;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -540,7 +540,7 @@ dd {
     text-align: right;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
+  }*/
   .dl-horizontal dd {
     margin-left: 180px;
   }
@@ -835,11 +835,11 @@ pre code {
 .col-xs-12 {
   width: 100%;
 }
-
+/*
 @media (min-width: 768px) {
   .container {
     max-width: 750px;
-  }
+  }*/
   .col-sm-1,
   .col-sm-2,
   .col-sm-3,
